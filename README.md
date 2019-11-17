@@ -17,7 +17,7 @@
         <!-- 暂时仅支持mysql 
             mysql数据库连接 
             type 数据库类型  
-            dataspace 所需要生成的数据库的名字-->
+            database 所需要生成的数据库的名字-->
         <jdbc type="mysql" database="edu_student">
             <param name="driverClassName">com.mysql.cj.jdbc.Driver</param>
             <param name="jdbcUrl">jdbc:mysql://localhost:3306/information_schema?serverTimezone=GMT%2B8</param>
